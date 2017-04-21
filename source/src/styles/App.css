@@ -1,0 +1,81 @@
+/* Base Application Styles */
+body {
+  color: #fff;
+  background: red;
+}
+
+.index img {
+  margin: 40px auto;
+  border-radius: 4px;
+  background: #fff;
+  display: block;
+}
+
+.index .notice {
+  margin: 20px auto;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  background: #666;
+}
+
+.common-width, .head nav {
+  width: 1200px;
+  margin: 0 auto; }
+
+.head {
+  height: 0.35rem;
+  line-height: 0.35rem;
+  background: #F6F6F6; }
+  .head nav {
+    color: #888;
+    font-size: 0.12rem; }
+    .head nav li:nth-child(2) span {
+      display: block; }
+      .head nav li:nth-child(2) span:before {
+        content: '|';
+        margin-right: 0.1rem; }
+    .head nav a {
+      display: block;
+      padding: 0 0.1rem; }
+      .head nav a:hover {
+        background: #EDCC1D;
+        color: #fff;
+        text-decoration: none; }
+
+.common-nav {
+  height: 0.75rem;
+  line-height: 0.75rem;
+  overflow: hidden; }
+  .common-nav a {
+    display: block;
+    float: left; }
+    .common-nav a img {
+      vertical-align: middle; }
+  .common-nav span {
+    font-size: 0.16rem;
+    color: #76B6CC; }
+    .common-nav span:before {
+      content: "|";
+      margin: 0.2rem 0.1rem;
+      float: left;
+      height: 0.35rem;
+      display: block;
+      border-left: 1px solid #dcdcdc;
+      width: 0px;
+      overflow: hidden; }
+  .common-nav ul li {
+    margin-left: 0.5rem;
+    height: 0.65rem; }
+    .common-nav ul li a {
+      font-size: 0.16rem;
+      color: #333; }
+  .common-nav ul .active {
+    border-bottom: 0.04rem solid #76B6CC;
+    padding-bottom: 0.1rem; }
+    .common-nav ul .active a {
+      display: inline;
+      color: #76B6CC; }
+
+/*# sourceMappingURL=style.css.map */
