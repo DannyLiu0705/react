@@ -1,0 +1,20 @@
+footer {
+  display: flex !important;
+  display: -webkit-flex !important;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-top: 0.01rem solid #ececec !important;
+  height: 0.44rem; }
+  footer a {
+    flex: 1;
+    -webkit-flex: 1;
+    text-align: center;
+    color: #999; }
+  footer .active {
+    color: #108ee9 !important; }
+
+/*# sourceMappingURL=Footer.css.map */

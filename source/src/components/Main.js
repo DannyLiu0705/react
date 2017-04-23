@@ -7,7 +7,7 @@ import {
 } from 'react-router';
 
 let logo = require('../images/logo.png');
-
+let Footer = require('./Footer');
 class Header extends React.Component {
   render(){
     return(
@@ -83,6 +83,7 @@ class AppComponent extends React.Component {
         {/*<Header />*/}
         {/*<Nav />*/}
         {this.props.children}
+        <Footer />
       </div>
     );
   }
