@@ -13,6 +13,8 @@ import {
 	hashHistory
 } from 'react-router';
 require('styles/Init.css');
+require('fonts/iconfont.css');
+require('styles/App.css');
 // Render the main component into the dom
 ReactDOM.render((
 	<Router history={hashHistory}>

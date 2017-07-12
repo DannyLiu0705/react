@@ -1,5 +1,4 @@
 require('normalize.css/normalize.css');
-require('styles/App.css');
 
 import React from 'react';
 import {
@@ -7,7 +6,7 @@ import {
 } from 'react-router';
 
 let logo = require('../images/logo.png');
-let Footer = require('./Footer');
+let Footer = require('./Footer.js');
 class Header extends React.Component {
   render(){
     return(

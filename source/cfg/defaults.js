@@ -8,7 +8,7 @@
 
 const path = require('path');
 const srcPath = path.join(__dirname, '/../src');
-const dfltPort = 8000;
+const dfltPort = 3000;
 
 /**
  * Get the default modules object for webpack
@@ -45,8 +45,8 @@ function getDefaultModules() {
         loader: 'style-loader!css-loader!stylus-loader'
       },
       {
-        test: /\.(png|jpg|gif|woff|woff2)$/,
-        loader: 'url-loader?limit=8192'
+        test: /\.(png|jpg|gif|woff|woff2|svg|eot|ttf)\??.*$/,
+        loader: 'url-loader?limit=8192&name=[path][name].[ext]'
       },
       {
         test: /\.(mp4|ogg|svg)$/,

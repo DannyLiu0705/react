@@ -6,17 +6,17 @@ class Footer extends React.Component {
         super();
         this.data = [
             {
-                img_url : '',
-                name : '首页',
+                icon : 'iconfont icon-financing',
+                name : '理财',
                 to : '/'
             },
             {
-                img_url : '',
+                icon : 'iconfont icon-find',
                 name : '发现',
                 to : 'find'
             },
             {
-                img_url : '',
+                icon : 'iconfont icon-me',
                 name : '我的',
                 to : 'me'
             }
@@ -38,6 +38,7 @@ class Footer extends React.Component {
                 {
                     this.data.map((item, index)=>
                         <Link key={index} to={item.to} onClick={this._tabChange.bind(this, index)} className={this.state.current === index ? 'active' : ''}>
+                            <i className={item.icon}></i>
                             <p>{item.name}</p>
                         </Link>
                     )
